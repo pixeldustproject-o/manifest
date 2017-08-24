@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pdo"
+           fetch="https://github.com/pixeldustproject-o" />
+  <remote name="gh"
+           fetch="https://github.com/" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" groups="pdk" remote="pdo" revision="o" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build_kati" name="android_build_kati" remote="pdo" revision="o" />
+  <project path="build/soong" name="android_build_soong" remote="pdo" revision="o" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Forked from AOSP -->
+  <project path="bionic" name="android_bionic" remote="pdo" revision="o" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="o" />
+  <project path="system/core" name="android_system_core" remote="pdo" revision="o" />
+
+  <!-- Vendors -->
+  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o" />
+
+</manifest>
