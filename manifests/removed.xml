@@ -53,6 +53,7 @@
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="platform/packages/apps/Settings" />
