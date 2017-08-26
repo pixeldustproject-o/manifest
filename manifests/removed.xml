@@ -57,5 +57,6 @@
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
+  <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/system/core" />
 </manifest>
