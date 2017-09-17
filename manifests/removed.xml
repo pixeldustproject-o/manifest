@@ -61,4 +61,5 @@
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/services/Telephony" />
 </manifest>
