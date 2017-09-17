@@ -16,7 +16,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build_kati" name="android_build_kati" remote="pdo" revision="o" />
+  <project path="build/kati" name="android_build_kati" remote="pdo" revision="o" />
   <project path="build/soong" name="android_build_soong" remote="pdo" revision="o" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -27,8 +27,12 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="o" />
   <project path="system/core" name="android_system_core" remote="pdo" revision="o" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="pdo" revision="o" />
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o" />
+
+  <!-- External -->
+  <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o" />
 
 </manifest>
