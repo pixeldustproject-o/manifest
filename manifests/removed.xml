@@ -62,4 +62,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 </manifest>
