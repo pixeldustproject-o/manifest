@@ -39,4 +39,8 @@
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o" />
 
+  <!-- PixelDust Repos -->
+  <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pdo" revision="o" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pdo" revision="o" />
+
 </manifest>
