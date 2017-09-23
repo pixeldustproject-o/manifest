@@ -65,4 +65,6 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="device/huawei/angler" />
+  <remove-project name="device/huawei/angler-kernel" />
 </manifest>

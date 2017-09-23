@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Google devices -->
+  <!-- Pixel devices -->
   <project path="vendor/google" name="proprietary_vendor_google" remote="pdo" revision="o" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin"  remote="pdo" revision="o" />
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o" />
+
+  <!-- Nexus devices -->
+  <project path="vendor/huawei" name="android_vendor_huawei" remote="pdo" revision="o" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler"  remote="pdo" revision="o" />
+  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pdo" revision="o" />
 
 </manifest>
