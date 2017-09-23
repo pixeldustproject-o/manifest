@@ -604,6 +604,7 @@
   <include name="manifests/removed.xml" />
   <include name="manifests/pixeldust.xml" />
   <include name="manifests/devices_main.xml" />
+  <include name="manifests/pixeldust_caf.xml" />
   <!--include name="manifests/twrp.xml" /-->
   <!--include name="manifests/devices_legacy.xml" /-->
 
