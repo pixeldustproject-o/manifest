@@ -7,8 +7,8 @@
            fetch="https://github.com/" />
   <remote name="carbon"
            fetch="https://github.com/CarbonROM" />
-  <remote name="lineage"
-           fetch="https://github.com/LineageOS" />
+  <remote name="aoscp"
+           fetch="https://github.com/CypherOS" />
 
   <!-- Build -->
   <project path="build/make" name="android_build_make" groups="pdk" remote="pdo" revision="o" >
@@ -40,7 +40,6 @@
   <!-- Carbon Repos-->
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="carbon" revision="cr-6.0" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" groups="pdk" remote="carbon" revision="cr-6.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="carbon" revision="cr-6.0" />
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o" />
