@@ -5,6 +5,8 @@
            fetch="https://github.com/pixeldustproject-o" />
   <remote name="gh"
            fetch="https://github.com/" />
+  <remote name="gl"
+           fetch="https://gitlab.com/" />
 
   <!-- Build -->
   <project path="build/make" name="android_build_make" groups="pdk" remote="pdo" revision="o" >
@@ -35,6 +37,7 @@
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o" />
+  <project path="vendor/gapps" name="PureNexus/vendor_gapps" remote="gl" revision="o" />
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o" />
