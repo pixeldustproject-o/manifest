@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Remove list for CAF only -->
+  <remove-project name="platform/system/hardware/interfaces" />
+
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aoscp" revision="oreo-release" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aoscp" revision="oreo-release" />
@@ -17,6 +20,11 @@
 
   <!-- Qualcomm Sepolicy -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" revision="oreo-release" />
+
+  <!-- AOSCP HAL Packages -->
+  <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="aoscp">
+    <copyfile dest="hardware/aoscp/Android.bp" src="Android.bp"/>
+  </project>
 
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" revision="oreo-release" />
@@ -62,6 +70,7 @@
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="carbon" revision="cr-6.0" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" revision="oreo-release" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="aoscp" />
 
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" revision="oreo-release" />
