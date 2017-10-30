@@ -11,4 +11,7 @@
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler"  remote="pdo" revision="o" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pdo" revision="o" />
 
+  <!-- Qualcomm common -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdo" revision="o" />
+
 </manifest>
