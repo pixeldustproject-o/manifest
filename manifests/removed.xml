@@ -102,4 +102,5 @@
 
   <remove-project name="platform/frameworks/rs" />
 
+  <remove-project name="platform/system/extras" />
 </manifest>
