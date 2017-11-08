@@ -22,7 +22,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" revision="oreo-release" />
 
   <!-- AOSCP HAL Packages -->
-  <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="aoscp">
+  <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="aoscp" revision="oreo-release">
     <copyfile dest="hardware/aoscp/Android.bp" src="Android.bp"/>
   </project>
 
@@ -70,7 +70,7 @@
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="carbon" revision="cr-6.0" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" revision="oreo-release" />
-  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="aoscp" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="aoscp" revision="oreo-release" />
 
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" revision="oreo-release" />
