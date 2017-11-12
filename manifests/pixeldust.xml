@@ -45,4 +45,8 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pdo" revision="o2" />
   <project path="packages/apps/PixelDustWallpapers" name="android_packages_apps_PixelDustWallpapers" remote="pdo" revision="o2" />
 
+  <!-- DU Repos -->
+  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="gh" revision="o8x" />
+  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="gh" revision="o8x" />
+
 </manifest>
