@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bb"
+           revision="master"
+           fetch="https://bitbucket.org/"/>
+
+  <remote  name="uber"
+           revision="master"
+           fetch="https://github.com/UBERCAF/"/>
+
+  <!-- UBER GCC & CLANG Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="uberroms/arm-eabi-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.x" name="uberroms/aarch64-linux-android-7.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bb" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.x" name="uberroms/arm-linux-androideabi-7.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/3.9" name="uberroms/clang_linux-x86_3.x" remote="bb" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" name="uberroms/clang_linux-x86_5.x" remote="bb" />
+
+  <!-- GCC 8.0 toolchain -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="xanaxdroid/aarch64-8.0" remote="bb" revision="linaro" />
+
+  <!-- Snapdragon toolchain -->
+  <project path="vendor/qcom/sdclang-4.0" name="uberroms/vendor_qcom_sdclang-4.0" remote="bb" />
+
+  
+</manifest>
+
