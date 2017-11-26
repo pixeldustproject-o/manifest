@@ -74,7 +74,6 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="carbon" revision="cr-6.0" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" revision="oreo-release" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="aoscp" revision="oreo-release" />
 
   <!-- Vendors -->
