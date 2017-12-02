@@ -22,8 +22,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="xanaxdroid/aarch64-8.0" remote="bb" revision="linaro" />
 
   <!-- Snapdragon toolchain -->
-  <project path="vendor/qcom/sdclang-4.0" name="uberroms/vendor_qcom_sdclang-4.0" remote="bb" />
+  <project path="vendor/qcom/sdclang-4.0" name="proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="pdo" revision="o" />
 
-  
 </manifest>
 
