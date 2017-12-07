@@ -623,4 +623,10 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Pixel Dust -->
+  <include name="manifests/removed.xml" />
+  <include name="manifests/pixeldust.xml" />
+  <include name="manifests/devices_main.xml" />
+  <!--include name="manifests/devices_legacy.xml" /-->
+
 </manifest>
