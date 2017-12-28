@@ -19,7 +19,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" revision="oreo-release" />
 
   <!-- Qualcomm Sepolicy -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" revision="oreo-release" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" revision="oreo-mr1-release" />
 
   <!-- AOSCP HAL Packages -->
   <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="aoscp" revision="oreo-release">
