@@ -2,5 +2,12 @@
 <manifest>
 
   <!-- Legacy devices -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="pdo" revision="lineage-15.0" />
+  <project path="kernel/asus/msm8916" name="android_kernel_asus_msm8916"  remote="pdo" revision="lineage-15.0" />
+  <project path="device/asus/msm8916-common" name="android_device_asus_msm8916-common" remote="pdo" revision="lineage-15.0" />
+  <project path="device/asus/Z00L" name="android_device_asus_Z00L" remote="pdo" revision="lineage-15.0" />
+
+  <!-- Generic common qcom configuration tools -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdo" revision="o" />
 
 </manifest>

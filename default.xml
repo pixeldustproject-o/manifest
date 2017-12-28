@@ -606,6 +606,6 @@
   <include name="manifests/devices_main.xml" />
   <include name="manifests/pixeldust_caf.xml" />
   <!--include name="manifests/twrp.xml" /-->
-  <!--include name="manifests/devices_legacy.xml" /-->
+  <include name="manifests/devices_legacy.xml" />
 
 </manifest>
