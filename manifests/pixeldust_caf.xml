@@ -27,43 +27,42 @@
   </project>
 
   <!-- Qualcomm HAL Packages -->
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8084" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8916" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8937" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8952" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8960" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8974" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8994" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8996" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8998" remote="aoscp" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="oreo-release-caf" remote="aoscp" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8084" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8916" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8937" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8952" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8960" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8974" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8994" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8996" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8998" remote="aoscp" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="zf2" revision="lineage-15.0" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8916" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8952" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8960" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8974" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8994" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8996" remote="zf2" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8998" remote="zf2" />
+
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="zf2" revision="lineage-15.0" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="lineage-15.0-caf" remote="zf2" />
+
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="zf2" revision="lineage-15.0" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8952" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8960" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8974" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8994" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8996" remote="zf2" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8998" remote="zf2" />
+
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="zf2" revision="lineage-15.0" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8916" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8952" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8960" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8974" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8994" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8996" remote="zf2" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" revision="lineage-15.0-caf-8998" remote="zf2" />
+
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="lineage-15.0-caf" remote="zf2" />
+
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="qcom,qcom_fm" remote="aoscp" revision="oreo-release" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="aoscp" revision="oreo-release" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8084" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8916" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8937" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8952" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8960" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8974" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8994" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8996" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8998" remote="aoscp" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aoscp" revision="oreo-release" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" revision="oreo-release-caf" remote="aoscp" />
+
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aoscp" revision="oreo-release" />
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" revision="oreo-release-caf" remote="aoscp" />
 
