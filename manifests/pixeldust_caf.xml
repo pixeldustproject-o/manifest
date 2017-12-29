@@ -28,7 +28,7 @@
 
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="zf2" revision="lineage-15.0" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8916" remote="zf2" />
+  <!--project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8916" remote="zf2" /-->
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8952" remote="zf2" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8960" remote="zf2" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0-caf-8974" remote="zf2" />
@@ -40,7 +40,7 @@
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="lineage-15.0-caf" remote="zf2" />
 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="zf2" revision="lineage-15.0" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="zf2" />
+  <!--project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="zf2" /-->
   <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8952" remote="zf2" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8960" remote="zf2" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8974" remote="zf2" />
@@ -65,6 +65,11 @@
 
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aoscp" revision="oreo-release" />
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" revision="oreo-release-caf" remote="aoscp" />
+
+  <!-- Testing section -->
+  <project path="external/tinycompress" name="miju12/platform_external_tinycompress" remote="gh" revision="oreo" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="o8x-caf" remote="gh" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="gh" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="carbon" revision="cr-6.0" />
