@@ -70,6 +70,7 @@
   <project path="external/tinycompress" name="miju12/platform_external_tinycompress" remote="gh" revision="oreo" />
   <project path="hardware/qcom/audio-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="o8x-caf" remote="gh" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="gh" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o-caf" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="carbon" revision="cr-6.0" />

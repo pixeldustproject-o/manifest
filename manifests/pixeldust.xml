@@ -31,7 +31,6 @@
   <!-- Forked from AOSP -->
   <project path="bionic" name="android_bionic" remote="pdo" revision="o" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdo" revision="o" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="pdo" revision="o" />
