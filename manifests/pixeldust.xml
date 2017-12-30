@@ -32,6 +32,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="pdo" revision="o2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="o2" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdo" revision="o2" />
   <project path="system/core" name="android_system_core" remote="pdo" revision="o2" />
   <project path="system/extras" name="android_system_extras" remote="pdo" revision="o2" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdo" revision="o2" />
@@ -65,7 +66,7 @@
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pdo" revision="o2" />
   <project path="packages/apps/PixelDustWallpapers" name="android_packages_apps_PixelDustWallpapers" remote="pdo" revision="o2" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="pdo" revision="o2" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdo" revision="o2" />
+  <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="pdo" revision="o2" />
 
   <!-- DU Repos -->
   <project path="external/DUtils" name="android_external_DUtils" remote="pdo" revision="o2" />
