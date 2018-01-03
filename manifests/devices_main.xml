@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Pixel devices -->
-  <project path="vendor/google" name="vendor_google_devices" remote="pdo" revision="o2" />
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="pdo" revision="o2" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin"  remote="pdo" revision="o2" />
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2" />
 
