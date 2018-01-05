@@ -629,5 +629,6 @@
   <include name="manifests/pixeldust.xml" />
   <include name="manifests/devices_main.xml" />
   <!--include name="manifests/devices_legacy.xml" /-->
+  <include name="manifests/prebuilts.xml" />
 
 </manifest>
