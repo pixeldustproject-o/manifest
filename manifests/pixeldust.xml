@@ -30,7 +30,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o2" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o2" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="pdo" revision="o2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="pdo" revision="o2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="o2" />
   <project path="system/core" name="android_system_core" remote="pdo" revision="o2" />
