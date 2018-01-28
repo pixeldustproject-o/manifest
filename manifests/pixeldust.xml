@@ -36,6 +36,7 @@
   <project path="system/core" name="android_system_core" remote="pdo" revision="o2" />
   <project path="system/extras" name="android_system_extras" remote="pdo" revision="o2" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdo" revision="o2" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pdo" revision="o2" />
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o2" />
