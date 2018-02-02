@@ -22,8 +22,7 @@
 
   <!-- External -->
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="staging/lineage-15.1" />
-  <project path="external/libbfqio" name="AEXmod/android_external_libbfqio external/libbfqio" remote="gh" revision="master" />
-
+  
   <!-- Qualcomm Sepolicy -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" revision="oreo-mr1-release" />
 
@@ -33,14 +32,14 @@
   </project>
 
   <!-- Qualcomm HAL Packages -->
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.1" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8916" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8952" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8960" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8974" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="lineage-15.0gzosp-caf-8994" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8996" remote="gzosp" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8998" remote="gzosp" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.1" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8916" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8952" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8960" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8974" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8994" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8996" remote="gzosp" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="8.1-caf-8998" remote="gzosp" />
 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="staging/lineage-15.1" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8916" remote="los" />
@@ -60,9 +59,9 @@
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="staging/lineage-15.1-caf-8996" remote="los" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" revision="staging/lineage-15.1-caf-8998" remote="los" />
 
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="8.1" remote="gzosp" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="8.0-caf" remote="gzosp" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="8.1-caf" remote="gzosp" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" revision="8.1" remote="gzosp" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" revision="8.0-caf" remote="gzosp" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="8.1-caf" remote="gzosp" />
 
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="qcom,qcom_fm" remote="aoscp" revision="oreo-release" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="aoscp" revision="oreo-release" />
