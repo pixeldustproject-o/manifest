@@ -78,5 +78,4 @@
 
   <!-- Testing section -->
   <project path="external/tinycompress" name="miju12/platform_external_tinycompress" remote="gh" revision="oreo" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="gh" revision="cm-14.1" />
 </manifest>
