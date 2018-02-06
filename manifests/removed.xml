@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Removed Repos -->
-
+  <remove-project name="platform/art" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libavc" />
