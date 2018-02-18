@@ -47,7 +47,6 @@
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
-  <project path="external/selinux" name="android_external_selinux" remote="pdo" revision="o2" />
 
   <!-- Externals from Benzo -->
   <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
