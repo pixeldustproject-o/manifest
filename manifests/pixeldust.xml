@@ -32,7 +32,9 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o2" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="pdo" revision="o2" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdo" revision="o2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pdo" revision="o2" />
+  <project path="libcore" name="android_libcore" remote="pdo" revision="o2" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="pdo" revision="o2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="o2" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdo" revision="o2" />
@@ -49,6 +51,7 @@
   <project path="external/selinux" name="android_external_selinux" remote="pdo" revision="o2" />
 
   <!-- Externals from Benzo -->
+  <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
   <project path="external/freetype" name="external_freetype" remote="benzo" revision="eightone" />
   <project path="external/jemalloc" name="external_jemalloc" remote="benzo" revision="eightone"/>
   <project path="external/libavc" name="external_libavc" remote="benzo" revision="eightone"/>
@@ -57,7 +60,9 @@
   <project path="external/libmpeg2" name="external_libmpeg2" remote="benzo" revision="eightone"/>
   <project path="external/libopus" name="external_libopus" remote="benzo" revision="eightone"/>
   <project path="external/libpng" name="external_libpng" remote="benzo" revision="eightone"/>
+  <project path="external/libunwind_llvm" name="external_libunwind_llvm" remote="benzo" revision="eightone"/>
   <project path="external/libxml2" name="external_libxml2" remote="benzo" revision="eightone"/>
+  <project path="external/proguard" name="external_proguard" remote="benzo" revision="eightone"/>
   <project path="external/skia" name="external_skia" remote="benzo" revision="eightone"/>
   <project path="external/speex" name="external_speex" remote="benzo" revision="eightone"/>
   <project path="external/sqlite" name="external_sqlite" remote="benzo" revision="eightone"/>
