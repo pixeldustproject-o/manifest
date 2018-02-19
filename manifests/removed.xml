@@ -88,6 +88,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
