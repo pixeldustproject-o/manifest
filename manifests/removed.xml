@@ -3,6 +3,7 @@
 
   <!-- Removed Repos -->
   <remove-project name="platform/art" />
+  <remove-project name="platform/dalvik" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc" />
