@@ -12,7 +12,7 @@
   <!-- Pixel devices -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="br" revision="eightone" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin"  remote="pdo" revision="ElementalX-3.x-PD" />
-  <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2" />
+  <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2-dtc" />
 
   <!-- Nexus devices -->
   <project path="vendor/huawei" name="android_vendor_huawei" remote="pdo" revision="o2" />
