@@ -37,6 +37,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdo" revision="o2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pdo" revision="o2" />
   <project path="libcore" name="android_libcore" remote="pdo" revision="o2" />
+  <project path="libnativehelper" name="android_libnativehelper" remote="pdo" revision="o2" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="pdo" revision="o2" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdo" revision="dev" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pdo" revision="o2" />

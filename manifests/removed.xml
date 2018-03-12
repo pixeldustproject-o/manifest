@@ -84,6 +84,7 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/libcore" />
+  <remove-project name="platform/libnativehelper" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
