@@ -44,6 +44,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pdo" revision="o2" />
   <project path="system/core" name="android_system_core" remote="pdo" revision="o2" />
   <project path="system/extras" name="android_system_extras" remote="pdo" revision="o2" />
+  <project path="system/netd" name="android_system_netd" remote="pdo" revision="o2" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdo" revision="o2" />
   <project path="system/vold" name="android_system_vold" remote="pdo" revision="o2" />
 
