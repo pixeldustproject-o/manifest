@@ -8,6 +8,7 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc" />
   <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libmpeg2" />
