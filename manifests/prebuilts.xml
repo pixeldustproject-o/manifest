@@ -12,6 +12,5 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="bb" revision="eightone" />
   <project path="prebuilts/clang/host/linux-x86/7.0" name="dragontc-7.0" remote="glab" revision="dragontc-7.0.0-20180217" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="pdo" revision="o2" />
-  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" revision="master" clone-depth="1" />
 
 </manifest>
