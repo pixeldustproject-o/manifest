@@ -58,6 +58,7 @@
   <project path="external/sfntly" name="android_external_sfntly" remote="pdo" revision="o2" />
   <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2" />
   <project path="external/vixl" name="android_external_vixl" remote="pdo" revision="o2" />
+  <project path="external/google-fonts/googlesans" name="android_external_google-fonts_googlesans" remote="pdo" revision="o2" />
 
   <!-- Externals from Benzo -->
   <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
