@@ -44,7 +44,6 @@
   <project path="system/extras" name="android_system_extras" remote="pdo" revision="o2" />
   <project path="system/netd" name="android_system_netd" remote="pdo" revision="o2" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdo" revision="o2" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="pdo" revision="o2" />
   <project path="system/vold" name="android_system_vold" remote="pdo" revision="o2" />
 
   <!-- Vendors -->
