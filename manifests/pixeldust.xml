@@ -9,7 +9,7 @@
            fetch="https://github.com/BenzoRom" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build_make" groups="pdk" remote="pdo" revision="o2" >
+  <project path="build/make" name="android_build_make" groups="pdk" remote="pdo" revision="o2-sdc" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -19,19 +19,19 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/kati" name="android_build_kati" remote="pdo" revision="o2" />
-  <project path="build/soong" name="android_build_soong" remote="pdo" revision="o2" >
+  <project path="build/soong" name="android_build_soong" remote="pdo" revision="o2-sdc" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Forked from AOSP -->
-  <project path="art" name="android_art" remote="pdo" revision="o2" />
-  <project path="bionic" name="android_bionic" remote="pdo" revision="o2" />
+  <project path="art" name="android_art" remote="pdo" revision="o2-sdc" />
+  <project path="bionic" name="android_bionic" remote="pdo" revision="o2-sdc" />
   <project path="dalvik" name="android_dalvik" remote="pdo" revision="o2" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="pdo" revision="o2" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o2" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o2-sdc" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o2" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2-sdc" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="pdo" revision="o2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="pdo" revision="o2" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdo" revision="o2" />
@@ -53,24 +53,19 @@
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="pdo" revision="o2" />
-  <project path="external/libunwind_llvm" name="android_external_libunwind_llvm" remote="pdo" revision="o2" />
-  <project path="external/skia" name="android_external_skia" remote="pdo" revision="o2" />
-  <project path="external/sfntly" name="android_external_sfntly" remote="pdo" revision="o2" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2" />
-  <project path="external/vixl" name="android_external_vixl" remote="pdo" revision="o2" />
+  <project path="external/libunwind_llvm" name="android_external_libunwind_llvm" remote="pdo" revision="o2-sdc" />
+  <project path="external/skia" name="android_external_skia" remote="pdo" revision="o2-sdc" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2-sdc" />
+  <project path="external/vixl" name="android_external_vixl" remote="pdo" revision="o2-sdc" />
   <project path="external/zlib" name="android_external_zlib" remote="pdo" revision="o2"/>
 
   <!-- Externals from Benzo -->
   <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
   <project path="external/freetype" name="external_freetype" remote="benzo" revision="eightone" />
-  <project path="external/jemalloc" name="external_jemalloc" remote="benzo" revision="eightone"/>
   <project path="external/libavc" name="external_libavc" remote="benzo" revision="eightone"/>
   <project path="external/libhevc" name="external_libhevc" remote="benzo" revision="eightone"/>
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="benzo" revision="eightone"/>
   <project path="external/libmpeg2" name="external_libmpeg2" remote="benzo" revision="eightone"/>
   <project path="external/libopus" name="external_libopus" remote="benzo" revision="eightone"/>
-  <project path="external/libpng" name="external_libpng" remote="benzo" revision="eightone"/>
   <project path="external/libxml2" name="external_libxml2" remote="benzo" revision="eightone"/>
   <project path="external/proguard" name="external_proguard" remote="benzo" revision="eightone"/>
   <project path="external/speex" name="external_speex" remote="benzo" revision="eightone"/>
