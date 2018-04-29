@@ -31,7 +31,7 @@
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="pdo" revision="o2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pdo" revision="o2-dtc-removed" />
   <project path="frameworks/av" name="android_frameworks_av" remote="pdo" revision="o2" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pdo" revision="o2-dtc-removed" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="pdo" revision="o2" />
   <project path="frameworks/support" name="android_frameworks_support" remote="pdo" revision="o2" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdo" revision="o2" />
@@ -53,7 +53,7 @@
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2-dtc-removed" />
 
   <!-- Externals from Benzo -->
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
