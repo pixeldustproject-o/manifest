@@ -11,7 +11,7 @@
 
   <!-- Pixel devices -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="br" revision="eightone" />
-  <project path="kernel/google/marlin" name="android_kernel_google_marlin"  remote="pdo" revision="ElementalX-3.x-PD" />
+  <project path="kernel/google/marlin" name="hellspawn_kernel_pixel" remote="pdo" revision="px" />
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2-sdc" />
 
   <!-- Nexus devices -->
