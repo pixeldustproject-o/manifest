@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Removed Repos in order to replace with Legacy Repos -->
+  <remove-project name="platform/external/strace" />
+
   <!-- Legacy devices -->
+  <project path="external/strace" name="android_external_strace" remote="pdo" revision="o2-legacy"/>
 
 </manifest>
