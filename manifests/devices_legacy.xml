@@ -6,7 +6,7 @@
 
   <!-- Legacy devices -->
   <project path="external/strace" name="android_external_strace" remote="pdo" revision="o2-legacy"/>
-  <project path="vendor/qualcomm" name="android_vendor_qcom" remote="pdo" revision="o2"/>
+  <project path="vendor/qcom" name="android_vendor_qcom" remote="pdo" revision="o2"/>
   <project path="vendor/lge" name="android_vendor_lge" remote="pdo" revision="o2" />
   <project path="kernel/qcom/msm8960" name="android_kernel_qcom_msm8960"  remote="pdo" revision="o2" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="pdo" revision="o2" />
