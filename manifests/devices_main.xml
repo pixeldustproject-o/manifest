@@ -18,9 +18,6 @@
   <project path="vendor/huawei" name="android_vendor_huawei" remote="pdo" revision="o2" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler"  remote="pdo" revision="o2" />
   <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pdo" revision="o2" />
-  <project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="pdo" revision="o2" />
-  <project path="kernel/qcom/msm8960" name="android_kernel_qcom_msm8960"  remote="pdo" revision="o2" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="pdo" revision="o2" />
 
   <!-- Qualcomm common -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="pdo" revision="o2" />
