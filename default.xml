@@ -629,6 +629,5 @@
   <include name="manifests/pixeldust_caf.xml" />
   <include name="manifests/devices_legacy.xml" />
   <include name="manifests/prebuilts.xml" />
-  <include name="manifests/opengapps.xml" />
 
 </manifest>
