@@ -50,8 +50,7 @@
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o2" />
   <project path="vendor/dexoptProfiles" name="android_vendor_dexoptProfiles" remote="pdo" revision="o2" />
-  <project path="vendor/pixelstyle" name="android_vendor_pixelstyle" remote="pdo" revision="o2" />
-  
+
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
   <project path="external/libunwind_llvm" name="android_external_libunwind_llvm" remote="pdo" revision="o2-sdc" />
