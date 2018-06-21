@@ -64,6 +64,9 @@
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
+  <project path="external/libavc" name="android_external_libavc" remote="pdo" revision="o2"/>
+  <project path="external/libhevc" name="android_external_libhevc" remote="pdo" revision="o2"/>
+  <project path="external/libopus" name="android_external_libopus" remote="pdo" revision="o2"/>
   <project path="external/libunwind_llvm" name="android_external_libunwind_llvm" remote="pdo" revision="o2-sdc" />
   <project path="external/sqlite" name="android_external_sqlite" remote="pdo" revision="o2-sdc" />
   <project path="external/vixl" name="android_external_vixl" remote="pdo" revision="o2-sdc" />
@@ -74,10 +77,7 @@
   <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
   <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
   <project path="external/freetype" name="external_freetype" remote="benzo" revision="eightone" />
-  <project path="external/libavc" name="external_libavc" remote="benzo" revision="eightone"/>
-  <project path="external/libhevc" name="external_libhevc" remote="benzo" revision="eightone"/>
   <project path="external/libmpeg2" name="external_libmpeg2" remote="benzo" revision="eightone"/>
-  <project path="external/libopus" name="external_libopus" remote="benzo" revision="eightone"/>
   <project path="external/libxml2" name="external_libxml2" remote="benzo" revision="eightone"/>
   <project path="external/proguard" name="external_proguard" remote="benzo" revision="eightone"/>
   <project path="external/speex" name="external_speex" remote="benzo" revision="eightone"/>
