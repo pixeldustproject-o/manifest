@@ -56,7 +56,6 @@
 
   <!-- Vendors -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pdo" revision="o2" />
-  <project path="vendor/dexoptProfiles" name="android_vendor_dexoptProfiles" remote="pdo" revision="o2" />
 
   <!-- External -->
   <project path="external/busybox" name="android_external_busybox" remote="pdo" revision="o2" />
