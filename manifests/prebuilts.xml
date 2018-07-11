@@ -3,15 +3,13 @@
 
   <remote  name="glab"
            fetch="https://gitlab.com/spezi77/" />
-  <remote  name="bb"
-           fetch="https://bitbucket.org/xanaxdroid/" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="bb" revision="linaro" />
   <project path="vendor/qcom/sdclang-4.0" name="vendor_qcom_sdclang-4.0" remote="pdo" revision="o" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="pdo" revision="o2" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="glab" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="glab" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="glab" revision="linaro" />
 
 </manifest>
