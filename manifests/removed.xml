@@ -41,7 +41,6 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/dalvik" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/expat" />
@@ -57,7 +56,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/vixl" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/libbcc" />
@@ -85,7 +83,6 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Email" />
