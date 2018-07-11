@@ -7,8 +7,6 @@
            fetch="https://github.com/" />
   <remote name="benzo"
            fetch="https://github.com/BenzoRom" />
-  <remote  name="bb"
-           fetch="https://bitbucket.org/xanaxdroid/" />
 
   <!-- Build -->
   <project path="build/make" name="android_build_make" groups="pdk" remote="pdo" revision="o2-sdc" >
@@ -74,7 +72,7 @@
 
   <!-- Externals from Benzo -->
   <project path="external/boringssl" name="external_boringssl" remote="benzo" revision="eightone" />
-  <project path="external/chromium-webview" name="external_chromium-webview" remote="bb" revision="eightone" />
+  <project path="external/chromium-webview" name="external_chromium-webview" remote="benzo" revision="eightone" />
   <project path="external/expat" name="external_expat" remote="benzo" revision="eightone" />
   <project path="external/freetype" name="external_freetype" remote="benzo" revision="eightone" />
   <project path="external/libmpeg2" name="external_libmpeg2" remote="benzo" revision="eightone"/>
