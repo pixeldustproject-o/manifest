@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/spezi77/" />
+
   <!-- Pixel GApps -->
-  <project path="vendor/googleapps" name="vendor_googleapps" remote="pdo" revision="o2" />
+  <project path="vendor/googleapps" name="vendor_googleapps" remote="gitlab" revision="o2" />
 
   <!-- Pixel devices -->
   <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" revision="eightone" />
