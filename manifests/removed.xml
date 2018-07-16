@@ -42,7 +42,6 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/boringssl" />
-  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libavc" />
