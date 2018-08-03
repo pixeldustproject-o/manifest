@@ -1,26 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/spezi77/" />
-
-  <!-- Pixel GApps -->
-  <project path="vendor/googleapps" name="vendor_googleapps" remote="gitlab" revision="o2" />
-
-  <!-- Pixel devices -->
-  <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" revision="eightone" />
-  <project path="kernel/google/marlin" name="hellspawn_kernel_pixel" remote="pdo" revision="HS-X-3.00" />
-  <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2-sdc" />
-
-  <!-- Nexus devices -->
-  <project path="vendor/huawei" name="android_vendor_huawei" remote="pdo" revision="o2" />
-  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler"  remote="pdo" revision="o2" />
-  <project path="device/huawei/angler" name="android_device_huawei_angler" remote="pdo" revision="o2" />
-
-  <!-- Qualcomm common -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="pdo" revision="o2" />
-
-  <!-- CAF telephony-ims -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pdo" revision="o2" />
-
+  <!-- Main devices -->
 </manifest>

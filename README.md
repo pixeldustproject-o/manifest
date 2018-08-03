@@ -5,7 +5,7 @@ Pixel Dust Project Manifest
 
 To initialize your local repository use
 
-    repo init -u https://github.com/pixeldustproject-o/manifest.git -b o2
+    repo init -u https://github.com/pixeldustproject-o/manifest.git -b o2-caf
     
 Then to sync up:
 

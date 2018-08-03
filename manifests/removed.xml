@@ -77,7 +77,6 @@
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
@@ -106,7 +105,6 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/jdk/jdk8" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
@@ -114,4 +112,26 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  
+  <!-- Remove list for CAF only -->
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/system/nfc" />
 </manifest>
