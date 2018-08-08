@@ -5,7 +5,7 @@
            fetch="https://gitlab.com/spezi77/" />
 
   <!-- Prebuilts -->
-  <project path="vendor/qcom/sdclang-4.0" name="vendor_qcom_sdclang-4.0" remote="pdo" revision="o" />
+  <project path="vendor/qcom/sdclang-6.0" name="vendor_qcom_sdclang-6.0" remote="pdo" revision="master" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="pdo" revision="o2" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="glab" revision="master" />
